@@ -1,9 +1,9 @@
 from datetime import time
 
 from selenium import webdriver
-from selenium.webdriver.common import keys
 from webdriver_manager.chrome import ChromeDriverManager
-
+import time
+from selenium.webdriver.common.keys import Keys
 
 driver=webdriver.Chrome(ChromeDriverManager().install())
 print("Test cases started")
